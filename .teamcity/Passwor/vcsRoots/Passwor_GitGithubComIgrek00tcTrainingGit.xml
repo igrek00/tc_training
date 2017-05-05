@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="d80198f2-b582-4f52-9011-82618212de74" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+  <name>git@github.com:igrek00/tc_training.git</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="TEAMCITY_SSH_KEY" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcitySshKey" value="id_rsa" />
+  <param name="url" value="git@github.com:igrek00/tc_training.git" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="git" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
