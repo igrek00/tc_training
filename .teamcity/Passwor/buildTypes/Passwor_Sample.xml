@@ -21,6 +21,13 @@ echo my custom param %my custom secured parameter%]]></param>
     </vcs-settings>
     <requirements />
     <build-triggers />
+    <build-extensions>
+      <extension id="ssh-agent-build-feature" type="ssh-agent-build-feature">
+        <parameters>
+          <param name="teamcitySshKey" value="id_rsa" />
+        </parameters>
+      </extension>
+    </build-extensions>
     <cleanup />
   </settings>
 </build-type>
